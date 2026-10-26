@@ -2,18 +2,22 @@ package id.ac.upb.asetpinjam.minggu01;
 
 import id.ac.upb.asetpinjam.config.Varian;
 
-/** Minggu 1, gaya OOP: data dan perilaku dibungkus dalam sebuah class. */
+/** Minggu 1, gaya OOP: class dengan field private dan method sapa(). */
 public class HelloOOP {
 
-    // TODO minggu 1: tambahkan field private untuk nama dan nim.
+    private final String nama;
+    private final String nim;
 
     public HelloOOP(String nama, String nim) {
-        throw new UnsupportedOperationException("TODO minggu 1: konstruktor HelloOOP");
+        this.nama = nama;
+        this.nim = nim;
     }
 
-    /** TODO minggu 1: sapaan memuat "Aset-Pinjam", nama, dan NIM. */
+    /**
+     * Kembalikan sapaan yang memuat kata "Aset-Pinjam", nama, dan NIM.
+     */
     public String sapa() {
-        throw new UnsupportedOperationException("TODO minggu 1: HelloOOP.sapa");
+        return " Hello Aset-Pinjam, saya " + nama + " (" + nim + ")";
     }
 
     public static void main(String[] args) {
