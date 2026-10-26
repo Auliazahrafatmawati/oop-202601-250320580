@@ -15,3 +15,4 @@ Saya mengalami kendala saat menggunakan script pengujian, lalu cara mengatasinya
 - Prompt utama: bagaimana cara mengatasi error pada script pengujian.
 - Yang saya ubah atau tolak dari saran AI, dan alasannya: saya ingin menguji minggu 1 saja.
 - Satu hal yang saya pahami lebih baik sekarang: belum ada.
+
