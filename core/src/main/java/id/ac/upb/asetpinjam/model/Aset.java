@@ -88,6 +88,14 @@ public class Aset implements DapatDipinjam {
 
     /** TODO minggu 4: denda keterlambatan. Dioverride tiap subclass (aturan di docs/aturan-bisnis.md). */
     public long hitungDenda(int hariTerlambat) {
+        validasiHariTerlambat(hariTerlambat);
+        return 0; // default, dioverride tiap subclass
+    }
+protected void validasiHariTerlambat(int hariTerlambat) {
+        if (hariTerlambat < 0) {
+            throw new IllegalArgumentException("Hari terlambat tidak boleh negatif");
+        }
         throw new UnsupportedOperationException("TODO minggu 4");
+
     }
 }
