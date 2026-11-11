@@ -95,7 +95,6 @@ protected void validasiHariTerlambat(int hariTerlambat) {
         if (hariTerlambat < 0) {
             throw new IllegalArgumentException("Hari terlambat tidak boleh negatif");
         }
-        throw new UnsupportedOperationException("TODO minggu 4");
 
     }
 }

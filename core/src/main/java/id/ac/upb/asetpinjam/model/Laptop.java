@@ -34,6 +34,7 @@ public class Laptop extends Aset {
     }
     @Override
     public long hitungDenda(int hariTerlambat) {
-        return hariTerlambat * 5000;
+        validasiHariTerlambat(hariTerlambat);
+        return (long) hariTerlambat * 5000 * 2; 
     }
 }

@@ -35,6 +35,8 @@ public class AlatLab extends Aset {
 
     @Override
     public long hitungDenda(int hariTerlambat) {
-        return hariTerlambat * 20000;
+        validasiHariTerlambat(hariTerlambat);
+        return (long) hariTerlambat * 5000 * 4;
+        
     }   
 }
